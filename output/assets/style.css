@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("bac.jpg") no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.header_box{
+    color: #fff;
+    margin-top: 10px;
+}
+.header_box h1,h6{
+    text-align: center;
+}
+.page_content{
+    width: 100%;
+    height: 100%;
+}
+.content-outer-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin-top: 20px;
+    width:80%;
+    min-height:400px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    padding: 20px;
+}
+.btn{
+    margin:20px;
+}
+.answer-inner-box{
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.footer{
+    color: #fff;
+    text-align: center;
+}
+#Malware_rule_drop{
+    font-size: 15px;
+}
